@@ -15,7 +15,7 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full mt-44 md:mt-0" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-          <h1 className="text-3xl lg:text-5xl font-extrabold text-white">Hi There... </h1>
+          <h1 className="text-3xl lg:text-5xl font-extrabold text-amber-400/75">Hi There ... </h1>
           <h2 className="font-extrabold text-4xl lg:text-6xl text-white my-8">This is <span className="text-transparent text-4xl lg:text-6xl bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text">Tanushri Das</span></h2>
           <h2 className="text-2xl lg:text-4xl font-bold text-white">I'm a <span className="text-violet-900" style={{fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
