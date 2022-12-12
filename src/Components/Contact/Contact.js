@@ -1,11 +1,13 @@
 import { fromJSON } from 'postcss';
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
+    const navigate = useNavigate();
 
     const [clear,setClear] = useState(null);
     const handleClear = () =>{
-        setClear(' ')
+        navigate('/')
     }
 
   return (

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="w-full h-full p-24 bg-gradient-to-b lg:-mt-10 from-purple-500 to-fuchsia-400 text-white pb-24">
       <div className="">
-      <div className="avatar ml-[90px] md:ml-[610px]">
+      <div className="avatar ml-[60px] md:ml-[610px]">
         <div className="w-24 rounded-full">
           <img src={myimg} />
         </div>

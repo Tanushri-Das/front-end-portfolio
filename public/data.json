@@ -1,0 +1,59 @@
+[
+    {
+        "id":"01",
+        "project_name": "Ashley Homestore",
+        "home_src":"sufa.jpeg",
+        "images":[
+            {
+                "id":1,
+                "home1_src":"home.jpeg"
+            },
+            {
+                "id":2,
+                "sign":"signup.jpeg"
+            },
+            {
+                "id":3,
+                "log":"login.jpeg"
+            }
+        ],
+        
+        "short_description" : "This is a furniture reseal website,which provides some second hand products.",
+        "long-description":[
+            {
+                "id":1,
+                "name1":"This website can be used admin,buyer and seller.",
+                "name2":"This can be able to order user Product in Website.",
+                "name3":"User can pay the booking order payment through Stripe."
+            },
+            {
+                "id":2,
+                "name1":"Seller will be able to add Product.",
+                "name3":"Each product can be seen in each category product.",
+                "name2":"The seller can see all the products to added him."
+            }
+        ],
+        "livesite_href": "https://furniture-reseal.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/furniture-reseal-client-side",
+        "server_side": "https://github.com/Tanushri-Das/furniture-reseal-server-side"
+    },
+    
+    {
+        "id":"02",
+       "project_name": "Tanu Eye Care",
+       "home_src":"eye.jpeg",
+        "short_description":"This is a eye disease service website , which provides some related solution.",
+        "livesite_href": "https://doctor-personal-website.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/doctor-personal-website",
+        "server_side": "https://github.com/Tanushri-Das/doctor-personal-server-side"
+    },
+    {
+        "id":"03",
+        "project_name": "Dream CSE",
+        "home_src":"learn.jpeg",
+        "short_description":"This is a computer science and enginnering courses learning website.",
+        "livesite_href": "https://learning-platform-da97f.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/learning-platform-client-side",
+        "server_side": "https://github.com/Tanushri-Das/learning-platform-server-side"
+    }
+]
