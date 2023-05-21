@@ -1,0 +1,25 @@
+@media only screen and (min-width:1230px) and (max-width:1240px){
+    .contacts{
+        margin-left:180px;
+    }
+}
+@media only screen and (min-width:1240px) and (max-width:1250px){
+    .contacts{
+        margin-left:180px;
+    }
+}
+@media only screen and (min-width:1250px) and (max-width:1260px){
+    .contacts{
+        margin-left:180px;
+    }
+}
+@media only screen and (min-width:1260px) and (max-width:1270px){
+    .contacts{
+        margin-left:160px;
+    }
+}
+@media only screen and (min-width:1270px) and (max-width:1285px){
+    .contacts{
+        margin-left:165px;
+    }
+}

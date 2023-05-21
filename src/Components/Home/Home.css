@@ -1,0 +1,734 @@
+@media only screen and (min-width:301px) and (max-width:330px){
+    .linkedin-social-links{
+        margin-left: 45px;
+    }
+    .resume-btn{
+        margin-left: 124px;
+    }
+}
+@media only screen and (min-width:330px) and (max-width:350px){
+    .linkedin-social-links{
+        margin-left: 50px;
+    }
+    .resume-btn{
+        margin-left: 136px;
+    }
+}
+@media only screen and (min-width:350px) and (max-width:375px){
+    .linkedin-social-links{
+        margin-left: 58px;
+    }
+    .resume-btn{
+        margin-left: 148px;
+    }
+}
+@media only screen and (min-width:375px) and (max-width:400px){
+    .linkedin-social-links{
+        margin-left:62px;
+    }
+    .resume-btn{
+        margin-left: 159px;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:430px){
+    .linkedin-social-links{
+        margin-left:74px;
+    }
+    .resume-btn{
+        margin-left: 175px;
+    }
+}
+@media only screen and (min-width:430px) and (max-width:450px){
+    .linkedin-social-links{
+        margin-left:78px;
+    }
+    .resume-btn{
+        margin-left: 186px;
+    }
+}
+@media only screen and (min-width:450px) and (max-width:475px){
+    .linkedin-social-links{
+        margin-left:85px;
+    }
+    .resume-btn{
+        margin-left: 197px;
+    }
+}
+@media only screen and (min-width:475px) and (max-width:500px){
+    .linkedin-social-links{
+        margin-left:93px;
+    }
+    .resume-btn{
+        margin-left:207px;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:530px){
+    .linkedin-social-links{
+        margin-left:99px;
+    }
+    .resume-btn{
+        margin-left:224px;
+    }
+}
+@media only screen and (min-width:530px) and (max-width:550px){
+    .linkedin-social-links{
+        margin-left:104px;
+    }
+    .resume-btn{
+        margin-left:235px;
+    }
+}
+@media only screen and (min-width:550px) and (max-width:575px){
+    .linkedin-social-links{
+        margin-left:112px;
+    }
+    .resume-btn{
+        margin-left:245px;
+    }
+}
+@media only screen and (min-width:575px) and (max-width:600px){
+    .linkedin-social-links{
+        margin-left:115px;
+    }
+    .resume-btn{
+        margin-left:256px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:630px){
+    .linkedin-social-links{
+        margin-left:127px;
+    }
+    .resume-btn{
+        margin-left:273px;
+    }
+}
+@media only screen and (min-width:630px) and (max-width:650px){
+    .linkedin-social-links{
+        margin-left:132px;
+    }
+    .resume-btn{
+        margin-left:278px;
+    }
+}
+@media only screen and (min-width:650px) and (max-width:675px){
+    .linkedin-social-links{
+        margin-left:132px;
+    }
+    .resume-btn{
+        margin-left:293px;
+    }
+}
+@media only screen and (min-width:675px) and (max-width:700px){
+    .linkedin-social-links{
+        margin-left:143px;
+    }
+    .resume-btn{
+        margin-left:305px;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:730px){
+    .linkedin-social-links{
+        margin-left:153px;
+    }
+    .resume-btn{
+        margin-left:327px;
+    }
+}
+@media only screen and (min-width:730px) and (max-width:750px){
+    .linkedin-social-links{
+        margin-left:165px;
+    }
+    .resume-btn{
+        margin-left:340px;
+    }
+}
+@media only screen and (min-width:750px) and (max-width:765px){
+    .linkedin-social-links{
+        margin-left:135px;
+    }
+    .resume-btn{
+        margin-left:345px;
+    }
+}
+@media only screen and (min-width:765px) and (max-width:775px){
+    .linkedin-social-links{
+        margin-left:93px;
+    }
+    .resume-btn{
+        margin-left:295px;
+    }
+    .myinfo{
+        margin-left:55px;
+    }
+    .my-pro-img{
+        margin-left: 166px;
+    }
+}
+@media only screen and (min-width:775px) and (max-width:785px){
+    .linkedin-social-links{
+        margin-left:105px;
+    }
+    .resume-btn{
+        margin-left:300px;
+    }
+    .myinfo{
+        margin-left:55px;
+    }
+    .my-pro-img{
+        margin-left: 173px;
+    }
+}
+@media only screen and (min-width:785px) and (max-width:800px){
+    .linkedin-social-links{
+        margin-left:107px;
+    }
+    .resume-btn{
+        margin-left:310px;
+    }
+    .myinfo{
+        margin-left:55px;
+    }
+    .my-pro-img{
+        margin-left: 183px;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:815px){
+    .linkedin-social-links{
+        margin-left:108px;
+    }
+    .resume-btn{
+        margin-left:314px;
+    }
+    .myinfo{
+        margin-left:55px;
+    }
+    .my-pro-img{
+        margin-left: 190px;
+    }
+}
+@media only screen and (min-width:815px) and (max-width:830px){
+    .linkedin-social-links{
+        margin-left:106px;
+    }
+    .resume-btn{
+        margin-left:316px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left: 185px;
+    }
+}
+@media only screen and (min-width:830px) and (max-width:840px){
+    .linkedin-social-links{
+        margin-left:106px;
+    }
+    .resume-btn{
+        margin-left:315px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left: 186px;
+    }
+}
+@media only screen and (min-width:840px) and (max-width:850px){
+    .linkedin-social-links{
+        margin-left:105px;
+    }
+    .resume-btn{
+        margin-left:313px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left: 195px;
+    }
+}
+@media only screen and (min-width:850px) and (max-width:865px){
+    .linkedin-social-links{
+        margin-left:105px;
+    }
+    .resume-btn{
+        margin-left:328px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left: 199.5px;
+    }
+}
+@media only screen and (min-width:865px) and (max-width:875px){
+    .linkedin-social-links{
+        margin-left:116px;
+    }
+    .resume-btn{
+        margin-left:337px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:206px;
+    }
+}
+@media only screen and (min-width:875px) and (max-width:885px){
+    .linkedin-social-links{
+        margin-left:115px;
+    }
+    .resume-btn{
+        margin-left:340px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:212px;
+    }
+}
+@media only screen and (min-width:885px) and (max-width:900px){
+    .linkedin-social-links{
+        margin-left:114px;
+    }
+    .resume-btn{
+        margin-left:345px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:224px;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:915px){
+    .linkedin-social-links{
+        margin-left:123px;
+    }
+    .resume-btn{
+        margin-left:355px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:229px;
+    }  
+}
+@media only screen and (min-width:915px) and (max-width:930px){
+    .linkedin-social-links{
+        margin-left:125px;
+    }
+    .resume-btn{
+        margin-left:361px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:239px;
+    }
+}
+@media only screen and (min-width:930px) and (max-width:940px){
+    .linkedin-social-links{
+        margin-left:134px;
+    }
+    .resume-btn{
+        margin-left:368px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:246px;
+    }
+}
+@media only screen and (min-width:940px) and (max-width:950px){
+    .linkedin-social-links{
+        margin-left:134px;
+    }
+    .resume-btn{
+        margin-left:370px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:254px;
+    }
+}
+@media only screen and (min-width:950px) and (max-width:965px){
+    .linkedin-social-links{
+        margin-left:134px;
+    }
+    .resume-btn{
+        margin-left:378px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:263px;
+    }
+}
+@media only screen and (min-width:965px) and (max-width:975px){
+    .linkedin-social-links{
+        margin-left:134px;
+    }
+    .resume-btn{
+        margin-left:388px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:266px;
+    }
+}
+@media only screen and (min-width:975px) and (max-width:985px){
+    .linkedin-social-links{
+        margin-left:135px;
+    }
+    .resume-btn{
+        margin-left:390px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:268px;
+    }
+}
+@media only screen and (min-width:985px) and (max-width:991px){
+    .linkedin-social-links{
+        margin-left:140px;
+    }
+    .resume-btn{
+        margin-left:395px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:272px;
+    }
+}
+@media only screen and (min-width:991px) and (max-width:1005px){
+    .linkedin-social-links{
+        margin-left:140px;
+    }
+    .resume-btn{
+        margin-left:395px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:275px;
+    }
+}
+@media only screen and (min-width:1005px) and (max-width:1020px){
+    .linkedin-social-links{
+        margin-left:145px;
+    }
+    .resume-btn{
+        margin-left:405px;
+    }
+    .myinfo{
+        margin-left:65px;
+    }
+    .my-pro-img{
+        margin-left:283px;
+    }
+}
+@media only screen and (min-width:1021px) and (max-width:1035px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:225px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:505px;
+    }
+}
+@media only screen and (min-width:1035px) and (max-width:1050px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:235px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:510px;
+    }
+}
+@media only screen and (min-width:1050px) and (max-width:1060px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:235px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:510px;
+    }
+}
+@media only screen and (min-width:1060px) and (max-width:1075px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:235px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:505px;
+    }
+}
+@media only screen and (min-width:1075px) and (max-width:1085px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:240px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:525px;
+    }
+}
+@media only screen and (min-width:1085px) and (max-width:1100px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:250px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:535px;
+    }
+}
+@media only screen and (min-width:1100px) and (max-width:1115px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:255px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:540px;
+    }
+}
+@media only screen and (min-width:1115px) and (max-width:1130px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:260px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:550px;
+    }
+}
+@media only screen and (min-width:1130px) and (max-width:1140px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:265px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:555px;
+    }
+}
+@media only screen and (min-width:1140px) and (max-width:1150px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:270px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:555px;
+    }
+}
+@media only screen and (min-width:1150px) and (max-width:1165px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:270px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:555px;
+    }
+}
+@media only screen and (min-width:1165px) and (max-width:1175px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:275px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:560px;
+    }
+}
+@media only screen and (min-width:1175px) and (max-width:1185px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:280px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:565px;
+    }
+}
+@media only screen and (min-width:1185px) and (max-width:1200px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:285px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:570px;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1215px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:290px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:570px;
+    }
+}
+@media only screen and (min-width:1215px) and (max-width:1230px){
+    .myinfo{
+        margin-left:30px;
+    }
+    .linkedin-social-links-two{
+        display: block;
+        margin-left:295px;
+    }
+    .home{
+        height:780px;
+    }
+    .resume-btn-two{
+        display: block;
+        margin-left:575px;
+    }
+}
+@media only screen and (min-width:1230px) and (max-width:1240px){
+    .myinfo{
+        margin-left:180px;
+    }
+    .home{
+        height:750px;
+    }
+}
+@media only screen and (min-width:1240px) and (max-width:1250px){
+    .myinfo{
+        margin-left:180px;
+    }
+    .home{
+        height:750px;
+    }
+}
+@media only screen and (min-width:1250px) and (max-width:1260px){
+    .myinfo{
+        margin-left:180px;
+    }
+    .home{
+        height:750px;
+    }
+}
+@media only screen and (min-width:1260px) and (max-width:1270px){
+    .myinfo{
+        margin-left:175px;
+    }
+    .home{
+        height:750px;
+    }
+}

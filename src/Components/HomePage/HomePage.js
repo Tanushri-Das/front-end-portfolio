@@ -6,19 +6,18 @@ import Portfolio from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Contact from '../Contact/Contact';
 import MyProjects from '../MyProjects/MyProjects';
+import Experience from '../Experience/Experience';
 
 const HomePage = () => {
   return (
     <div>
-        {/* <Navbar></Navbar> */}
         <Home></Home>
         <SocialLinks></SocialLinks>
         <About></About>
         <Portfolio></Portfolio>
-        {/* <MyProjects></MyProjects> */}
         <Skills></Skills>
+        <Experience></Experience>
         <Contact></Contact>
-       {/* <Footer></Footer> */}
     </div>
   )
 }

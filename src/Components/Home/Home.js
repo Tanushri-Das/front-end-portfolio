@@ -3,6 +3,7 @@ import myimg from "../.././assets/heroImage.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import { HiOutlineMail } from "react-icons/hi";
+import './Home.css';
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
@@ -37,37 +38,35 @@ const Home = () => {
       child:(
         <>Dawnload Resume <BsFillPersonLinesFill size={30}/></>
       ),
-      href: "/Tanu.pdf",
+      href: "Tanushri Das Resume (2).pdf",
       download: true,
     },
   ]
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-purple-500 to-fuchsia-400 mt-0"
+      className="xl:h-screen home w-full bg-gradient-to-b from-purple-500 to-fuchsia-400 mt-0"
     >
-      {/*max-w-screen-lg flex flex-col items-center justify-center md:flex-row*/}
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center h-screen px-4 md:ml-64 overflow-hidden pb-24 lg:pb-0 lg:-mt-20">
-        {/* flex flex-col justify-center */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center xl:h-screen px-4 myinfo xl:ml-56 overflow-hidden pb-24 lg:pb-0 lg:-mt-20 xl:mt-0">
         <div
-          className="flex flex-col justify-center h-full"
+          className="flex flex-col justify-center h-full info-lg"
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <h1 className="text-3xl lg:text-5xl font-extrabold text-amber-400/75">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl mt-5 md:mt-8 lg:mt-16 xl:-mt-[270px]  font-extrabold text-amber-400/75">
             Hi There ...{" "}
           </h1>
-          <h2 className="font-extrabold text-4xl lg:text-6xl text-white my-8">
+          <h2 className="font-extrabold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white md:my-6 my-4">
             This is{" "}
-            <span className="text-transparent text-4xl lg:text-6xl bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text">
+            <span className="text-transparent text-2xl md:text-4xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text">
               Tanushri Das
             </span>
           </h2>
-          <h2 className="text-2xl lg:text-4xl font-bold text-white">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
             I'm a{" "}
             <span className="text-violet-900" style={{ fontWeight: "bold" }}>
-              {/* Style will be inherited from the parent element */}
+
               <Typewriter
                 words={[
                   "Front-End Web Developer",
@@ -85,7 +84,7 @@ const Home = () => {
             </span>{" "}
           </h2>
 
-          <div className="lg:hidden mt-12 grid grid-cols-3 justify-center items-center ml-16">
+          <div className="lg:hidden mt-16 lg:mt-44 grid grid-cols-3 justify-center items-center linkedin-social-links">
             {links.map(({ id,child, href, download }) => (
               <button key={id}>
                 <a
@@ -100,10 +99,10 @@ const Home = () => {
               </button>
             ))}
           </div>
-          <div className="lg:hidden mt-12 grid grid-cols-1 justify-center items-center ml-[165px]">
+          <div className="lg:hidden mt-16 grid grid-cols-1 justify-center items-center resume-btn">
 
             {
-               myresume.map(({id,child,href,style,download})=>(<button key={id} className={"flex justify-between items-center bg-indigo-500 w-60 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]" + " " + style}>
+               myresume.map(({id,child,href,style,download})=>(<button key={id} className={"flex justify-between items-center w-60 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]" + " " + style}>
                 <a className='flex justify-between items-center w-full text-white' href={href} download={download} target="_blank" rel="noreferrer">{child}</a>
             </button>))
             }
@@ -120,9 +119,36 @@ const Home = () => {
           <img
             src={myimg}
             alt="my profile"
-            className="rounded-2xl mx-auto w-[300px] mt-12 lg:mt-0"
+            className="rounded-lg mx-auto w-[300px] mt-16 lg:mt-52 xl:-mt-36 my-pro-img"
           />
         </div>
+      </div>
+      <div className="hidden xl:hidden mt-16 lg:mt-20 linkedin-social-links-two">
+          <div className="grid grid-cols-3 justify-center items-center">
+          {links.map(({ id,child, href, download }) => (
+              <button key={id}>
+                <a
+                  className="flex justify-between items-center w-full text-white"
+                  href={href}
+                  download={download}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                 {child}
+                </a>
+              </button>
+            ))}
+          </div>
+      </div>
+      <div className="hidden xl:hidden mt-16 resume-btn-two">
+        <div className="grid grid-cols-1 justify-center items-center">
+        {
+               myresume.map(({id,child,href,style,download})=>(<button key={id} className={"flex justify-between items-center w-60 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]" + " " + style}>
+                <a className='flex justify-between items-center w-full text-white' href={href} download={download} target="_blank" rel="noreferrer">{child}</a>
+            </button>))
+            }
+        </div>
+
       </div>
     </div>
   );

@@ -1,0 +1,25 @@
+@media only screen and (min-width:1230px) and (max-width:1240px){
+    .social{
+        display: block;
+    }
+}
+@media only screen and (min-width:1240px) and (max-width:1250px){
+    .social{
+        display: block;
+    }
+}
+@media only screen and (min-width:1250px) and (max-width:1260px){
+    .social{
+        display: block;
+    }
+}
+@media only screen and (min-width:1260px) and (max-width:1270px){
+    .social{
+        display: block;
+    }
+}
+@media only screen and (min-width:1270px) and (max-width:1285px){
+    .social{
+        display: block;
+    }
+}

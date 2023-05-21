@@ -1,0 +1,123 @@
+
+@media only screen and (min-width:300px) and (max-width:430px){
+    .skill-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (min-width:1021px) and (max-width:1035px){
+    .skills-div{
+        width:935px;
+    }
+}
+@media only screen and (min-width:1035px) and (max-width:1050px){
+    .skills-div{
+        width:943px;
+    }
+}
+@media only screen and (min-width:1050px) and (max-width:1060px){
+    .skills-div{
+        width:956px;
+    }
+}
+@media only screen and (min-width:1060px) and (max-width:1075px){
+    .skills-div{
+        width:973px;
+    }
+}
+@media only screen and (min-width:1075px) and (max-width:1085px){
+    .skills-div{
+        width:986px;
+    }
+}
+@media only screen and (min-width:1085px) and (max-width:1100px){
+    .skills-div{
+        width:990px;
+    }
+}
+@media only screen and (min-width:1100px) and (max-width:1115px){
+    .skills-div{
+        width:1014px;
+    }
+}
+@media only screen and (min-width:1115px) and (max-width:1130px){
+    .skills-div{
+        width:1026px;
+    }
+}
+@media only screen and (min-width:1130px) and (max-width:1140px){
+    .skills-div{
+        width:1040px;
+    }
+}
+@media only screen and (min-width:1140px) and (max-width:1150px){
+    .skills-div{
+        width:1048px;
+    }
+}
+@media only screen and (min-width:1150px) and (max-width:1165px){
+    .skills-div{
+        width:1060px;
+    }
+}
+@media only screen and (min-width:1165px) and (max-width:1175px){
+    .skills-div{
+        width:1075px;
+    }
+}
+@media only screen and (min-width:1175px) and (max-width:1185px){
+    .skills-div{
+        width:1085px;
+    }
+}
+@media only screen and (min-width:1185px) and (max-width:1200px){
+    .skills-div{
+        width:1098px;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1215px){
+    .skills-div{
+        width:1113px;
+    }
+}
+@media only screen and (min-width:1215px) and (max-width:1230px){
+    .skills-div{
+        width:1125px;
+    }
+}
+@media only screen and (min-width:1230px) and (max-width:1240px){
+    .skill{
+        margin-left:180px;
+    }
+}
+@media only screen and (min-width:1240px) and (max-width:1250px){
+    .skill{
+        margin-left:180px;
+    }
+    .skills-div{
+        width:1002px;
+    }
+}
+@media only screen and (min-width:1250px) and (max-width:1260px){
+    .skill{
+        margin-left:180px;
+    }
+    .skills-div{
+        width:1010px;
+    }
+}
+@media only screen and (min-width:1260px) and (max-width:1270px){
+    .skill{
+        margin-left:180px;
+    }
+    .skills-div{
+        width:1020px;
+    }
+}
+@media only screen and (min-width:1270px) and (max-width:1285px){
+    .skill{
+        margin-left:180px;
+    }
+    .skills-div{
+        width:1030px;
+    }
+}
