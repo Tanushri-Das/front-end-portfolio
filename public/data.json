@@ -1,23 +1,19 @@
 [
     {
         "id":"01",
+        "project_name": "UserEase",
+        "home_src":"user.jpeg",
+        "tech":"React.js ,Bootstrap ,Redux Toolkit ,Node.js ,Express.js ,MongoDB.",
+        "short_description":"This is a User Management System website.",
+        "livesite_href": "https://user-management-system-84453.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/user-management-system-client-side",
+        "server_side": "https://github.com/Tanushri-Das/user-management-system-server-side"
+    },
+    {
+        "id":"02",
         "project_name": "Ashley Homestore",
-        "home_src":"sufa.jpeg",
-        "images":[
-            {
-                "id":1,
-                "home1_src":"home.jpeg"
-            },
-            {
-                "id":2,
-                "sign":"signup.jpeg"
-            },
-            {
-                "id":3,
-                "log":"login.jpeg"
-            }
-        ],
-        
+        "home_src":"sufa.jpeg", 
+        "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
         "short_description" : "This is a furniture reseal website,which provides some second hand products.",
         "long-description":[
             {
@@ -39,21 +35,32 @@
     },
     
     {
-        "id":"02",
+        "id":"03",
        "project_name": "Tanu Eye Care",
        "home_src":"eye.jpeg",
+       "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
         "short_description":"This is a eye disease service website , which provides some related solution.",
         "livesite_href": "https://doctor-personal-website.web.app/",
         "cilent_side": "https://github.com/Tanushri-Das/doctor-personal-website",
         "server_side": "https://github.com/Tanushri-Das/doctor-personal-server-side"
     },
     {
-        "id":"03",
+        "id":"04",
         "project_name": "Dream CSE",
         "home_src":"learn.jpeg",
+        "tech":"React.js ,Bootstrap ,Node.js ,Express.js ,MongoDB.",
         "short_description":"This is a computer science and enginnering courses learning website.",
         "livesite_href": "https://learning-platform-da97f.web.app/",
         "cilent_side": "https://github.com/Tanushri-Das/learning-platform-client-side",
         "server_side": "https://github.com/Tanushri-Das/learning-platform-server-side"
+    },
+    {
+        "id":"05",
+        "project_name": "TeuxDeux",
+        "home_src":"task.jpeg",
+        "tech":"Next.js ,Tailwind Css ,TypeScript ,Local Storage .",
+        "short_description":"This is a Task Management System website.",
+        "livesite_href": "https://meek-biscochitos-e66f54.netlify.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/nextjs-typescript-todo-app"
     }
 ]

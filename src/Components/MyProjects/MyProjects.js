@@ -47,7 +47,7 @@ const MyProjects = ({ project }) => {
               
               <button className="bg-gradient-to-r rounded-lg from-indigo-500 via-purple-500 to-pink-500 w-full lg:w-32 px-2 py-2 duration-200 hover:scale-105 text-white"><a href={cilent_side}target="_blank" rel="noreferrer">Client Side</a></button>
               <button className="bg-gradient-to-r rounded-lg from-indigo-500 via-purple-500 to-pink-500 w-full lg:w-32 px-2 py-2 duration-200 hover:scale-105 text-white"><a href={server_side}target="_blank" rel="noreferrer">Server Side</a></button>
-            </div>
+          </div>
       </div>
     </div>
   );

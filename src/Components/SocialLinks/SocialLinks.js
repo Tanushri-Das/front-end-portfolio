@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/FRONT-END-RESUME.pdf",
+      href: "Tanushri Das Resume (2).pdf",
       style: "rounded-br-md",
       download: true,
     },

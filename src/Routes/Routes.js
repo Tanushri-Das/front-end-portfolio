@@ -18,24 +18,24 @@ export const router = createBrowserRouter([
                 element:<HomePage></HomePage>,
                
             },
-            {
-                path:'/project/01',
-                element:<SingleProject></SingleProject>
-            },
-            {
-                path:'/project/02',
-                element:<SecondProject></SecondProject>
+            // {
+            //     path:'/project/01',
+            //     element:<SingleProject></SingleProject>
+            // },
+            // {
+            //     path:'/project/02',
+            //     element:<SecondProject></SecondProject>
                
-            },
-            {
-                path:'/project/03',
-                element:<ThirdProject></ThirdProject>
+            // },
+            // {
+            //     path:'/project/03',
+            //     element:<ThirdProject></ThirdProject>
                
-            },
-            {
-                path:'/blog',
-                element:<Blog></Blog>
-            }
+            // },
+            // {
+            //     path:'/blog',
+            //     element:<Blog></Blog>
+            // }
         ]
     }
 ])

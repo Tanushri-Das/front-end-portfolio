@@ -10,6 +10,9 @@ import express from "../../assets/express.png";
 import react from "../../assets/react.png";
 import next from "../../assets/nextjs.png";
 import material from "../../assets/material.png";
+import redux from '../../assets/redux.png';
+import typescript from '../../assets/typescript.png';
+import vite from '../../assets/vite.png';
 import './Skills.css'
 
 const Skills = () => {
@@ -52,31 +55,48 @@ const Skills = () => {
     },
     {
       id: 7,
+      src: redux,
+      title: "Redux",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 8,
       src: next,
       title: "Next JS",
       style: "shadow-white",
     },
     {
-      id: 8,
+      id: 9,
       src: material,
       title: "Material UI",
       style: "shadow-blue-600",
     },
-
     {
-      id:9,
+      id: 10,
+      src: typescript,
+      title: "Typescript",
+      style: "shadow-blue-600",
+    },
+    {
+      id:11,
+      src:  vite,
+      title: "Vite",
+      style: "shadow-blue-600",
+    },
+    {
+      id:12,
       src: node,
       title: "Node Js",
       style: "shadow-green-500",
     },
     {
-      id:10,
+      id:13,
       src: express,
       title: "Express Js",
       style: "shadow-white",
     },
     {
-      id: 11,
+      id: 14,
       src: mongodb,
       title: "MongoDb",
       style: "shadow-green-700",
