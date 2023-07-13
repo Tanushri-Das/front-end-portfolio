@@ -48,7 +48,7 @@
         "id":"04",
         "project_name": "Dream CSE",
         "home_src":"learn.jpeg",
-        "tech":"React.js ,Bootstrap ,Node.js ,Express.js ,MongoDB.",
+        "tech":"React.js ,Bootstrap ,Node.js ,Express.js",
         "short_description":"This is a computer science and enginnering courses learning website.",
         "livesite_href": "https://learning-platform-da97f.web.app/",
         "cilent_side": "https://github.com/Tanushri-Das/learning-platform-client-side",
@@ -62,5 +62,15 @@
         "short_description":"This is a Task Management System website.",
         "livesite_href": "https://meek-biscochitos-e66f54.netlify.app/",
         "cilent_side": "https://github.com/Tanushri-Das/nextjs-typescript-todo-app"
+    },
+    {
+        "id":"06",
+        "project_name": "Survey App",
+        "home_src":"survey.jpeg",
+        "tech":"React.js ,Tailwind Css ,Node.js ,Express.js ,MongoDB.",
+        "short_description":"This is a Survey App website.",
+        "livesite_href": "https://648697fa2c003b7e5abef80a--charming-tulumba-0899b4.netlify.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/Code-Inbound-LLP",
+        "server_side":"https://github.com/Tanushri-Das/code-inbound-server-side"
     }
 ]
