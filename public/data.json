@@ -14,7 +14,7 @@
         "project_name": "Ashley Homestore",
         "home_src":"sufa.jpeg", 
         "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
-        "short_description" : "This is a furniture reseal website,which provides some second hand products.",
+        "short_description" : "This is a furniture reseal website.",
         "long-description":[
             {
                 "id":1,
@@ -39,7 +39,7 @@
        "project_name": "Tanu Eye Care",
        "home_src":"eye.jpeg",
        "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
-        "short_description":"This is a eye disease service website , which provides some related solution.",
+        "short_description":"This is a eye disease service website.",
         "livesite_href": "https://doctor-personal-website.web.app/",
         "cilent_side": "https://github.com/Tanushri-Das/doctor-personal-website",
         "server_side": "https://github.com/Tanushri-Das/doctor-personal-server-side"

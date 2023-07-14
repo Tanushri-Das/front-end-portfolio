@@ -42,7 +42,8 @@ const Portfolio = () => {
             ({
               id,
               project_name,
-              home_src,tech,
+              home_src,
+              tech,
               server_side,
               cilent_side,
               livesite_href,
@@ -66,30 +67,25 @@ const Portfolio = () => {
                 <p className="text-justify mt-4 font-lg text-xl">
                   {short_description}
                 </p>
-                <p className="font-medium mt-1">
-                Technology Used : {tech}
-                </p>
-                
-                {/* <button
-                  className="btn btn-primary mb-6 lg:block w-full mt-7 mr-6 text-lg"
-                  key={id}
-                  value={project_name}
-                >
-                  <Link to={`/project/${id}`}>View Details</Link>
-                </button> */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-1 2xl:grid-cols-3 gap-3 lg:gap-7 xl:gap-2 mt-4 ">
-                  <button className="bg-gradient-to-r rounded-lg from-indigo-500 via-purple-500 to-pink-500 w-full font-semibold xl:w-full 2xl:w-auto px-2 py-2 duration-200 hover:scale-105 text-white">
-                    <a href={livesite_href} target="_blank" rel="noreferrer">
+                <p className="font-medium mt-1 mb-3">Technology Used: {tech}</p>
+
+                <div className="project-buttons mt-auto gap-2">
+                  <button className="bg-gradient-to-r rounded-lg from-indigo-500 via-purple-500 to-pink-500 font-semibold w-full px-2 py-2 duration-200 hover:scale-105 text-white">
+                    <a
+                      href={livesite_href}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Live
                     </a>
                   </button>
 
-                  <button className="bg-gradient-to-r rounded-lg from-indigo-500 via-purple-500 to-pink-500 w-full px-2 xl:w-full 2xl:w-auto font-semibold py-2 duration-200 hover:scale-105 text-white">
+                  <button className="bg-gradient-to-r w-full rounded-lg from-indigo-500 via-purple-500 to-pink-500 font-semibold px-2 py-2 duration-200 hover:scale-105 text-white">
                     <a href={cilent_side} target="_blank" rel="noreferrer">
                       Client
                     </a>
                   </button>
-                  <button className="bg-gradient-to-r rounded-lg from-indigo-500 via-purple-500 to-pink-500 w-full xl:w-full 2xl:w-auto font-semibold px-2 py-2 duration-200 hover:scale-105 text-white">
+                  <button className="bg-gradient-to-r w-full rounded-lg from-indigo-500 via-purple-500 to-pink-500 font-semibold px-2 py-2 duration-200 hover:scale-105 text-white">
                     <a href={server_side} target="_blank" rel="noreferrer">
                       Server
                     </a>
