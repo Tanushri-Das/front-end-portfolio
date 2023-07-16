@@ -33,9 +33,27 @@
         "cilent_side": "https://github.com/Tanushri-Das/furniture-reseal-client-side",
         "server_side": "https://github.com/Tanushri-Das/furniture-reseal-server-side"
     },
-    
     {
         "id":"03",
+        "project_name": "TechEdify",
+        "home_src":"cse.jpeg",
+        "tech":"React.js ,Bootstrap ,Node.js ,Express.js",
+        "short_description":"This is a computer science and enginnering courses learning website.",
+        "livesite_href": "https://learning-platform-64090.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/Online-learning-platform-client-side",
+        "server_side": "https://github.com/Tanushri-Das/Online-learning-platform-server-side"
+    },
+    {
+        "id":"04",
+        "project_name": "TeuxDeux",
+        "home_src":"task.jpeg",
+        "tech":"Next.js ,Tailwind Css ,TypeScript ,Local Storage .",
+        "short_description":"This is a Task Management System website.",
+        "livesite_href": "https://meek-biscochitos-e66f54.netlify.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/nextjs-typescript-todo-app"
+    },
+    {
+        "id":"05",
        "project_name": "Tanu Eye Care",
        "home_src":"eye.jpeg",
        "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
@@ -43,25 +61,6 @@
         "livesite_href": "https://doctor-personal-website.web.app/",
         "cilent_side": "https://github.com/Tanushri-Das/doctor-personal-website",
         "server_side": "https://github.com/Tanushri-Das/doctor-personal-server-side"
-    },
-    {
-        "id":"04",
-        "project_name": "Dream CSE",
-        "home_src":"learn.jpeg",
-        "tech":"React.js ,Bootstrap ,Node.js ,Express.js",
-        "short_description":"This is a computer science and enginnering courses learning website.",
-        "livesite_href": "https://learning-platform-da97f.web.app/",
-        "cilent_side": "https://github.com/Tanushri-Das/learning-platform-client-side",
-        "server_side": "https://github.com/Tanushri-Das/learning-platform-server-side"
-    },
-    {
-        "id":"05",
-        "project_name": "TeuxDeux",
-        "home_src":"task.jpeg",
-        "tech":"Next.js ,Tailwind Css ,TypeScript ,Local Storage .",
-        "short_description":"This is a Task Management System website.",
-        "livesite_href": "https://meek-biscochitos-e66f54.netlify.app/",
-        "cilent_side": "https://github.com/Tanushri-Das/nextjs-typescript-todo-app"
     },
     {
         "id":"06",
