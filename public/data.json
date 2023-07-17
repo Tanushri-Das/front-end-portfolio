@@ -11,6 +11,45 @@
     },
     {
         "id":"02",
+        "project_name": "TechEdify",
+        "home_src":"cse.jpeg",
+        "tech":"React.js ,Bootstrap ,Node.js ,Express.js",
+        "short_description":"This is a computer science and enginnering courses learning website.",
+        "livesite_href": "https://learning-platform-64090.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/Online-learning-platform-client-side",
+        "server_side": "https://github.com/Tanushri-Das/Online-learning-platform-server-side"
+    },
+    {
+        "id":"03",
+        "project_name": "TeuxDeux",
+        "home_src":"task.jpeg",
+        "tech":"Next.js ,Tailwind Css ,TypeScript ,Local Storage .",
+        "short_description":"This is a Task Management System website.",
+        "livesite_href": "https://meek-biscochitos-e66f54.netlify.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/nextjs-typescript-todo-app"
+    },
+    {
+        "id":"04",
+       "project_name": "Tanu Eye Care",
+       "home_src":"eye.jpeg",
+       "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
+        "short_description":"This is a eye disease service website.",
+        "livesite_href": "https://doctor-personal-website.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/doctor-personal-website",
+        "server_side": "https://github.com/Tanushri-Das/doctor-personal-server-side"
+    },
+    {
+        "id":"05",
+        "project_name": "Survey App",
+        "home_src":"survey.jpeg",
+        "tech":"React.js ,Tailwind Css ,Node.js ,Express.js ,MongoDB.",
+        "short_description":"This is a Survey App website.",
+        "livesite_href": "https://648697fa2c003b7e5abef80a--charming-tulumba-0899b4.netlify.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/Code-Inbound-LLP",
+        "server_side":"https://github.com/Tanushri-Das/code-inbound-server-side"
+    },
+    {
+        "id":"06",
         "project_name": "Ashley Homestore",
         "home_src":"sufa.jpeg", 
         "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
@@ -32,44 +71,5 @@
         "livesite_href": "https://furniture-reseal.web.app/",
         "cilent_side": "https://github.com/Tanushri-Das/furniture-reseal-client-side",
         "server_side": "https://github.com/Tanushri-Das/furniture-reseal-server-side"
-    },
-    {
-        "id":"03",
-        "project_name": "TechEdify",
-        "home_src":"cse.jpeg",
-        "tech":"React.js ,Bootstrap ,Node.js ,Express.js",
-        "short_description":"This is a computer science and enginnering courses learning website.",
-        "livesite_href": "https://learning-platform-64090.web.app/",
-        "cilent_side": "https://github.com/Tanushri-Das/Online-learning-platform-client-side",
-        "server_side": "https://github.com/Tanushri-Das/Online-learning-platform-server-side"
-    },
-    {
-        "id":"04",
-        "project_name": "TeuxDeux",
-        "home_src":"task.jpeg",
-        "tech":"Next.js ,Tailwind Css ,TypeScript ,Local Storage .",
-        "short_description":"This is a Task Management System website.",
-        "livesite_href": "https://meek-biscochitos-e66f54.netlify.app/",
-        "cilent_side": "https://github.com/Tanushri-Das/nextjs-typescript-todo-app"
-    },
-    {
-        "id":"05",
-       "project_name": "Tanu Eye Care",
-       "home_src":"eye.jpeg",
-       "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
-        "short_description":"This is a eye disease service website.",
-        "livesite_href": "https://doctor-personal-website.web.app/",
-        "cilent_side": "https://github.com/Tanushri-Das/doctor-personal-website",
-        "server_side": "https://github.com/Tanushri-Das/doctor-personal-server-side"
-    },
-    {
-        "id":"06",
-        "project_name": "Survey App",
-        "home_src":"survey.jpeg",
-        "tech":"React.js ,Tailwind Css ,Node.js ,Express.js ,MongoDB.",
-        "short_description":"This is a Survey App website.",
-        "livesite_href": "https://648697fa2c003b7e5abef80a--charming-tulumba-0899b4.netlify.app/",
-        "cilent_side": "https://github.com/Tanushri-Das/Code-Inbound-LLP",
-        "server_side":"https://github.com/Tanushri-Das/code-inbound-server-side"
     }
 ]
