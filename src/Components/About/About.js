@@ -4,13 +4,13 @@ import './About.css'
 
 const About = () => {
   return (
-    <div
+    <div id="about"
       name="about"
-      className="w-full h-full bg-gradient-to-b md:-mt-10 from-purple-500 to-fuchsia-400 text-white pb-14 md:pb-24"
+      className="w-full h-full md:-mt-10 bg-blue-800 text-white pb-14 md:pb-24"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full lg:ml-8 xl:ml-56 about">
         <div
-          className="pb-4 mt-16 md:mt-24 xl:mt-32"
+          className="pb-4 mt-16 md:mt-24 xl:-mt-24"
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
@@ -56,27 +56,27 @@ const About = () => {
         >
           <p className="font-bold my-4 text-xl md:text-2xl whitespace-nowrap lg:text-3xl">Front-end Web Developer</p>
 
-          <p className="font-semibold mb-2 text-sm md:text-xl">
+          <p className="font-medium mb-2 text-sm md:text-xl about-text">
             <MdOutlineKeyboardArrowRight size={25} className="inline mr-2" />
             BirthDate : 05 January 1999
           </p>
-          <p className="font-semibold mb-2 text-sm md:text-xl">
+          <p className="font-medium mb-2 text-sm md:text-xl about-text">
             <MdOutlineKeyboardArrowRight size={25} className="inline mr-2" />
             Phone : +8801646471948
           </p>
-          <p className="font-semibold mb-2 text-sm md:text-xl">
+          <p className="font-medium mb-2 text-sm md:text-xl about-text">
             <MdOutlineKeyboardArrowRight size={25} className="inline mr-2" />
             City : Dhaka , Bangladesh
           </p>
-          <p className="font-semibold mb-2 text-sm md:text-xl">
+          <p className="font-medium mb-2 text-sm md:text-xl about-text">
             <MdOutlineKeyboardArrowRight size={25} className="inline mr-2" />
             Age : 22
           </p>
-          <p className="font-semibold mb-2 text-sm md:text-xl">
+          <p className="font-medium mb-2 text-sm md:text-xl about-text">
             <MdOutlineKeyboardArrowRight size={25} className="inline mr-2" />
             Degree : B.Sc in CSE
           </p>
-          <p className="font-semibold mb-2 text-sm md:text-xl">
+          <p className="font-medium mb-2 text-sm md:text-xl about-text">
             <MdOutlineKeyboardArrowRight size={25} className="inline mr-2" />
             Email : dastanushri402@gmail.com
           </p>

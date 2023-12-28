@@ -1,3 +1,6 @@
+.about-text{
+    font-family: 'Poppins', sans-serif;
+}
 @media only screen and (min-width:1021px) and (max-width:1035px){
     .about-p{
         width:938px;

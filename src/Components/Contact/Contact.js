@@ -12,13 +12,13 @@ const Contact = () => {
   };
 
   return (
-    <div
+    <div id="contact"
       name="contact"
-      className="w-full h-full bg-gradient-to-b from-purple-500 to-fuchsia-400 p-4 text-white  pb-10 md:pb-24"
+      className="w-full h-full bg-blue-800 p-4 text-white  pb-10 md:pb-24"
     >
       <div className="flex flex-col p-1 md:p-0 lg:p-4 justify-center max-w-screen-lg mx-auto h-full contacts xl:ml-52">
         <div
-          className="pb-8 mt-16 md:mt-20 lg:mt-24 xl:mt-32"
+          className="pb-8 mt-16 md:mt-20 lg:mt-24 xl:-mt-11"
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"

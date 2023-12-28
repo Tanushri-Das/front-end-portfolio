@@ -3,13 +3,13 @@ import './Experience.css'
 
 const Experience = () => {
   return (
-    <div
-      name="about"
-      className="w-full h-full bg-gradient-to-b md:-mt-10 from-purple-500 to-fuchsia-400 text-white pb-14 md:pb-24"
+    <div id="experience"
+      name="experience"
+      className="w-full h-full bg-blue-800 md:-mt-10 text-white pb-14 md:pb-24"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full lg:ml-8 xl:ml-56 about">
         <div
-          className="pb-4 mt-16 md:mt-24 xl:mt-32"
+          className="pb-4 mt-16 md:mt-24 xl:mt-4"
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"

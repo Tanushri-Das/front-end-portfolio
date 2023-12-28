@@ -45,27 +45,24 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="xl:h-screen home w-full bg-gradient-to-b from-purple-500 to-fuchsia-400 mt-0"
+      className="xl:h-[90vh] home w-full bg-blue-800 mt-0"
     >
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center xl:h-screen px-4 myinfo xl:ml-56 overflow-hidden pb-24 lg:pb-0 lg:-mt-20 xl:mt-0">
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center xl:h-[90vh]  px-4 myinfo xl:ml-56 overflow-hidden pb-24 lg:pb-0 lg:-mt-20 xl:mt-0">
         <div
           className="flex flex-col justify-center h-full info-lg"
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl mt-5 md:mt-8 lg:mt-16 xl:-mt-[270px]  font-extrabold text-amber-400/75">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl mt-5 md:mt-8 lg:mt-16 xl:-mt-[270px]  font-extrabold text-white">
             Hi There ...{" "}
           </h1>
           <h2 className="font-extrabold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white md:my-6 my-4">
-            This is{" "}
-            <span className="text-transparent text-2xl md:text-4xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text">
-              Tanushri Das
-            </span>
+            This is Tanushri Das
           </h2>
           <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
             I'm a{" "}
-            <span className="text-violet-900" style={{ fontWeight: "bold" }}>
+            <span className="text-white" style={{ fontWeight: "bold" }}>
 
               <Typewriter
                 words={[
@@ -119,7 +116,7 @@ const Home = () => {
           <img
             src={myimg}
             alt="my profile"
-            className="rounded-lg mx-auto w-[300px] mt-16 lg:mt-52 xl:-mt-36 my-pro-img"
+            className="rounded-lg mx-auto w-[300px] mt-16 lg:mt-52 xl:-mt-40 my-pro-img"
           />
         </div>
       </div>

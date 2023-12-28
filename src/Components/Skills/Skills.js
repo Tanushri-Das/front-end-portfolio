@@ -13,6 +13,11 @@ import material from "../../assets/material.png";
 import redux from '../../assets/redux.png';
 import typescript from '../../assets/typescript.png';
 import vite from '../../assets/vite.png';
+import sass from '../../assets/sass.png';
+import swiper from '../../assets/swiper.png';
+import mobx from '../../assets/mobx.png';
+import vercel from '../../assets/vercel.jpg';
+import netlify from '../../assets/netlify.jpeg'
 import './Skills.css'
 
 const Skills = () => {
@@ -49,67 +54,98 @@ const Skills = () => {
     },
     {
       id: 6,
+      src: sass,
+      title: "Sass",
+      style: "shadow-pink-500",
+    },
+    {
+      id: 7,
       src: react,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 7,
+      id: 8,
       src: redux,
       title: "Redux",
       style: "shadow-blue-600",
     },
     {
-      id: 8,
+      id: 9,
       src: next,
       title: "Next JS",
       style: "shadow-white",
     },
     {
-      id: 9,
+      id: 10,
       src: material,
       title: "Material UI",
       style: "shadow-blue-600",
     },
     {
-      id: 10,
+      id: 11,
       src: typescript,
       title: "Typescript",
       style: "shadow-blue-600",
     },
     {
-      id:11,
+      id:12,
       src:  vite,
       title: "Vite",
       style: "shadow-blue-600",
     },
     {
-      id:12,
+      id:13,
       src: node,
       title: "Node Js",
       style: "shadow-green-500",
     },
     {
-      id:13,
+      id:14,
       src: express,
       title: "Express Js",
       style: "shadow-white",
     },
     {
-      id: 14,
+      id: 15,
       src: mongodb,
       title: "MongoDb",
       style: "shadow-green-700",
     },
+    {
+      id:16,
+      src:  swiper,
+      title: "Swiper Js",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 17,
+      src: mobx,
+      title: "MobX",
+      style: "shadow-orange-700",
+    },
+    {
+      id: 18,
+      src: netlify,
+      title: "Netlify",
+      style: "shadow-green-700",
+    },
+    {
+      id:19,
+      src: vercel,
+      title: "Vercel",
+      style: "shadow-white",
+    },
+
   ];
   return (
-    <div
+    <div id="skills"
       name="skills"
-      className="bg-gradient-to-b from-purple-500 to-fuchsia-400 w-full h-full"
+      className="bg-blue-800 w-full h-full"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white pb-16 md:pb-24 lg:ml-8 xl:ml-56 skill">
         <div
-          className="mt-16 md:mt-24 xl:mt-32"
+          className="mt-16 md:mt-24 xl:-mt-0"
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"

@@ -1,16 +1,61 @@
 [
     {
         "id":"01",
-        "project_name": "UserEase",
-        "home_src":"user.jpeg",
-        "tech":"React.js ,Bootstrap ,Redux Toolkit ,Node.js ,Express.js ,MongoDB.",
-        "short_description":"This is a User Management System website.",
-        "livesite_href": "https://user-management-system-84453.web.app/",
-        "cilent_side": "https://github.com/Tanushri-Das/user-management-system-client-side",
-        "server_side": "https://github.com/Tanushri-Das/user-management-system-server-side"
+        "project_name": "Foodie's Paradise",
+        "home_src":"returant-home.jpeg",
+        "tech":"React ,React-router ,Tailwind Css ,Daisy Ui ,Axios ,Jwt ,Firebase ,React icons ,React hook form ,Sweetalert2 ,NodeJs ,Express Js ,MongoDB .",
+        "short_description":"This is a Resturant website.",
+        "admin_email":"opirichita@gmail.com",
+        "admin_pass":"OP12!@",
+        "livesite_href": "https://resturant-website-e86d8.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/Resturant-Website-Client-Side",
+        "server_side":"https://github.com/Tanushri-Das/Resturant-Website-Server-Side"
     },
     {
         "id":"02",
+        "project_name": "Dental Ease",
+        "home_src":"dentalease.jpeg",
+        "tech":"React ,React-router ,Tailwind Css ,Axios ,Jwt ,Firebase ,React icons ,React hook form ,Sweetalert2 ,NodeJs ,Express Js ,MongoDB .",
+        "short_description":"This is a Dental Clinic Website .",
+        "admin_email":"dastanushri402@gmail.com",
+        "admin_pass":"tanu12",
+        "livesite_href": "https://dochouse-7c464.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/doc-house-client-side",
+        "server_side":"https://github.com/Tanushri-Das/dental-ease-server-side"
+    },
+    {
+        "id":"03",
+        "project_name": "Jerin's Parlour",
+        "home_src":"parlour.jpeg",
+        "tech":"React ,React-router ,Tailwind Css ,Axios ,Jwt ,Firebase ,React icons ,React hook form ,Sweetalert2 ,NodeJs ,Express Js ,MongoDB .",
+        "short_description":"This is a Parlour website.",
+        "admin_email":"nishat12@gmail.com",
+        "admin_pass":"nishat",
+        "livesite_href": "https://parlour-website-37d65.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/parlour-website-client-side",
+        "server_side": "https://github.com/Tanushri-Das/parlour-website-server-side"
+    },
+    {
+        "id":"04",
+        "project_name": "Courier Service Website",
+        "home_src":"courier-service.jpeg",
+        "tech":"Html ,Css ,Bootstrap ,Javascript ,Jquery ,Swiper Js.",
+        "short_description":"This is a Courier Service Website landing page.",
+        "livesite_href": "https://fanciful-bavarois-720345.netlify.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/Courier-Service-Website"
+    },
+    {
+        "id":"05",
+       "project_name": "Tanu Eye Care",
+       "home_src":"eye.jpeg",
+       "tech":"React ,React-router ,Tailwind Css ,Daisy Ui ,Firebase ,React-photo-view ,React icons ,React-toastify ,NodeJs ,Express Js ,MongoDB .",
+        "short_description":"This is a eye disease service website.",
+        "livesite_href": "https://doctor-personal-website.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/doctor-personal-website",
+        "server_side": "https://github.com/Tanushri-Das/doctor-personal-server-side"
+    },
+    {
+        "id":"06",
         "project_name": "TechEdify",
         "home_src":"cse.jpeg",
         "tech":"React.js ,Bootstrap ,Node.js ,Express.js",
@@ -20,39 +65,29 @@
         "server_side": "https://github.com/Tanushri-Das/Online-learning-platform-server-side"
     },
     {
-        "id":"03",
+        "id":"07",
         "project_name": "TeuxDeux",
         "home_src":"task.jpeg",
-        "tech":"Next.js ,Tailwind Css ,TypeScript ,Local Storage .",
+        "tech":"Next.js ,Tailwind Css ,TypeScript ,MobX ,Local Storage .",
         "short_description":"This is a Task Management System website.",
         "livesite_href": "https://meek-biscochitos-e66f54.netlify.app/",
         "cilent_side": "https://github.com/Tanushri-Das/nextjs-typescript-todo-app"
     },
     {
-        "id":"04",
-       "project_name": "Tanu Eye Care",
-       "home_src":"eye.jpeg",
-       "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
-        "short_description":"This is a eye disease service website.",
-        "livesite_href": "https://doctor-personal-website.web.app/",
-        "cilent_side": "https://github.com/Tanushri-Das/doctor-personal-website",
-        "server_side": "https://github.com/Tanushri-Das/doctor-personal-server-side"
+        "id":"08",
+        "project_name": "UserEase",
+        "home_src":"user.jpeg",
+        "tech":"React.js ,Bootstrap ,Redux Toolkit ,Node.js ,Express.js ,MongoDB.",
+        "short_description":"This is a User Management System website.",
+        "livesite_href": "https://user-management-system-84453.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/user-management-system-client-side",
+        "server_side": "https://github.com/Tanushri-Das/user-management-system-server-side"
     },
     {
-        "id":"05",
-        "project_name": "Survey App",
-        "home_src":"survey.jpeg",
-        "tech":"React.js ,Tailwind Css ,Node.js ,Express.js ,MongoDB.",
-        "short_description":"This is a Survey App website.",
-        "livesite_href": "https://648697fa2c003b7e5abef80a--charming-tulumba-0899b4.netlify.app/",
-        "cilent_side": "https://github.com/Tanushri-Das/Code-Inbound-LLP",
-        "server_side":"https://github.com/Tanushri-Das/code-inbound-server-side"
-    },
-    {
-        "id":"06",
+        "id":"09",
         "project_name": "Ashley Homestore",
         "home_src":"sufa.jpeg", 
-        "tech":"React.js ,Tailwind Css ,Daisy Ui,Node.js ,Express.js ,MongoDB.",
+        "tech":"React.js ,React Hook Form ,Tailwind Css ,Daisy Ui ,Node.js ,Express.js ,MongoDB.",
         "short_description" : "This is a furniture reseal website.",
         "long-description":[
             {
@@ -71,5 +106,15 @@
         "livesite_href": "https://furniture-reseal.web.app/",
         "cilent_side": "https://github.com/Tanushri-Das/furniture-reseal-client-side",
         "server_side": "https://github.com/Tanushri-Das/furniture-reseal-server-side"
+    },
+    {
+        "id":"10",
+        "project_name": "Survey App",
+        "home_src":"survey.jpeg",
+        "tech":"React.js ,Tailwind Css ,Node.js ,Express.js ,MongoDB.",
+        "short_description":"This is a Survey App website.",
+        "livesite_href": "https://648697fa2c003b7e5abef80a--charming-tulumba-0899b4.netlify.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/Code-Inbound-LLP",
+        "server_side":"https://github.com/Tanushri-Das/code-inbound-server-side"
     }
 ]
