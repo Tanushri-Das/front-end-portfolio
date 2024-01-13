@@ -3,50 +3,54 @@ import myimg from "../.././assets/heroImage.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import { HiOutlineMail } from "react-icons/hi";
-import './Home.css';
+import "./Home.css";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
   const links = [
     {
-      id:1,
-      child:(
-          <><FaLinkedin size={30}/></>
+      id: 1,
+      child: (
+        <>
+          <FaLinkedin size={30} />
+        </>
       ),
-      href:'https://www.linkedin.com/in/tanushri-das/',
-      style:'rounded-tr-md'
-  },
-  {
-    id:2,
-    child:(
-        <><FaGithub size={30}/></>
-    ),
-    href:'https://github.com/Tanushri-Das',
-},
-{
-    id:3,
-    child:(
-        <><HiOutlineMail size={30}/></>
-    ),
-    href:'mailto:dastanushri402@gmail.com',
-},
-  
+      href: "https://www.linkedin.com/in/tanushri-das/",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          <FaGithub size={30} />
+        </>
+      ),
+      href: "https://github.com/Tanushri-Das",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto:dastanushri402@gmail.com",
+    },
   ];
   const myresume = [
     {
       id: 1,
-      child:(
-        <>Dawnload Resume <BsFillPersonLinesFill size={30}/></>
+      child: (
+        <>
+          Dawnload Resume <BsFillPersonLinesFill size={30} />
+        </>
       ),
       href: "Tanushri Das Resume (2).pdf",
       download: true,
     },
-  ]
+  ];
   return (
-    <div
-      name="home"
-      className="xl:h-[90vh] home w-full bg-blue-800 mt-0"
-    >
+    <div name="home" className="xl:h-[90vh] home w-full bg-blue-800 mt-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center xl:h-[90vh]  px-4 myinfo xl:ml-56 overflow-hidden pb-24 lg:pb-0 lg:-mt-20 xl:mt-0">
         <div
           className="flex flex-col justify-center h-full info-lg"
@@ -63,7 +67,6 @@ const Home = () => {
           <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
             I'm a{" "}
             <span className="text-white" style={{ fontWeight: "bold" }}>
-
               <Typewriter
                 words={[
                   "Front-End Web Developer",
@@ -82,7 +85,7 @@ const Home = () => {
           </h2>
 
           <div className="lg:hidden mt-16 lg:mt-44 grid grid-cols-3 justify-center items-center linkedin-social-links">
-            {links.map(({ id,child, href, download }) => (
+            {links.map(({ id, child, href, download }) => (
               <button key={id}>
                 <a
                   className="flex justify-between items-center w-full text-white"
@@ -91,21 +94,33 @@ const Home = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                 {child}
+                  {child}
                 </a>
               </button>
             ))}
           </div>
           <div className="lg:hidden mt-16 grid grid-cols-1 justify-center items-center resume-btn">
-
-            {
-               myresume.map(({id,child,href,style,download})=>(<button key={id} className={"flex justify-between items-center w-60 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]" + " " + style}>
-                <a className='flex justify-between items-center w-full text-white' href={href} download={download} target="_blank" rel="noreferrer">{child}</a>
-            </button>))
-            }
-
-            
-        </div>
+            {myresume.map(({ id, child, href, style, download }) => (
+              <button
+                key={id}
+                className={
+                  "flex justify-between items-center w-60 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]" +
+                  " " +
+                  style
+                }
+              >
+                <a
+                  className="flex justify-between items-center w-full text-white"
+                  href={href}
+                  download={download}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {child}
+                </a>
+              </button>
+            ))}
+          </div>
         </div>
 
         <div
@@ -121,31 +136,45 @@ const Home = () => {
         </div>
       </div>
       <div className="hidden xl:hidden mt-16 lg:mt-20 linkedin-social-links-two">
-          <div className="grid grid-cols-3 justify-center items-center">
-          {links.map(({ id,child, href, download }) => (
-              <button key={id}>
-                <a
-                  className="flex justify-between items-center w-full text-white"
-                  href={href}
-                  download={download}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                 {child}
-                </a>
-              </button>
-            ))}
-          </div>
+        <div className="grid grid-cols-3 justify-center items-center">
+          {links.map(({ id, child, href, download }) => (
+            <button key={id}>
+              <a
+                className="flex justify-between items-center w-full text-white"
+                href={href}
+                download={download}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {child}
+              </a>
+            </button>
+          ))}
+        </div>
       </div>
       <div className="hidden xl:hidden mt-16 resume-btn-two">
         <div className="grid grid-cols-1 justify-center items-center">
-        {
-               myresume.map(({id,child,href,style,download})=>(<button key={id} className={"flex justify-between items-center w-60 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]" + " " + style}>
-                <a className='flex justify-between items-center w-full text-white' href={href} download={download} target="_blank" rel="noreferrer">{child}</a>
-            </button>))
-            }
+          {myresume.map(({ id, child, href, style, download }) => (
+            <button
+              key={id}
+              className={
+                "flex justify-between items-center w-60 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]" +
+                " " +
+                style
+              }
+            >
+              <a
+                className="flex justify-between items-center w-full text-white"
+                href={href}
+                download={download}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {child}
+              </a>
+            </button>
+          ))}
         </div>
-
       </div>
     </div>
   );

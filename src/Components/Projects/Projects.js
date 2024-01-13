@@ -74,10 +74,10 @@ const Portfolio = () => {
                 {admin_email && admin_pass && (
                   <div className="mt-1 mb-3">
                     <p className="text-lg font-medium">
-                      Admin Email: {admin_email}
+                      Admin Email : {admin_email}
                     </p>
                     <p className="font-medium text-lg">
-                      Admin Pass: {admin_pass}
+                      Admin Pass : {admin_pass}
                     </p>
                   </div>
                 )}

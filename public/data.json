@@ -25,6 +25,18 @@
     },
     {
         "id":"03",
+        "project_name": "Sip Coffee",
+        "home_src":"coffee.jpeg",
+        "tech":"React, React-router, Tailwind Css, Redux Toolkit, Axios, Jwt, Firebase, React icons, Sweetalert2, NodeJs, Express Js, MongoDB.",
+        "short_description":"This is a Coffee Shop website.",
+        "admin_email":"priya12@gmail.com",
+        "admin_pass":"priya12",
+        "livesite_href": "https://coffee-shop-9743b.web.app/",
+        "cilent_side": "https://github.com/Tanushri-Das/coffee-shop-website-client-side",
+        "server_side": "https://github.com/Tanushri-Das/coffee-shop-website-server-side"
+    },
+    {
+        "id":"03",
         "project_name": "Jerin's Parlour",
         "home_src":"parlour.jpeg",
         "tech":"React ,React-router ,Tailwind Css ,Axios ,Jwt ,Firebase ,React icons ,React hook form ,Sweetalert2 ,NodeJs ,Express Js ,MongoDB .",
