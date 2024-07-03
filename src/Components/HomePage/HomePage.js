@@ -5,7 +5,6 @@ import About from '../About/About';
 import Portfolio from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Contact from '../Contact/Contact';
-import MyProjects from '../MyProjects/MyProjects';
 import Experience from '../Experience/Experience';
 
 const HomePage = () => {

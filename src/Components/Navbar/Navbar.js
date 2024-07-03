@@ -1,18 +1,28 @@
-
 import React from "react";
-import { Link } from "react-router-dom";
-import './Navbar.css';
 
 const Navbar = () => {
-  
-    const menuItems = <>
-    <li className="text-2xl lg:text-white font-semibold"><a href='/'>Home</a></li>
-    <li className="text-2xl lg:text-white font-semibold"><a href='#about'>About</a></li>
-    <li className="text-2xl lg:text-white font-semibold"><a href='#projects'>Projects</a></li>
-    <li className="text-2xl lg:text-white font-semibold"><a href='#skills'>Skills</a></li>
-    <li className="text-2xl lg:text-white font-semibold"><a href='#experience'>Experience</a></li>
-    <li className="text-2xl lg:text-white font-semibold"><a href='#contact'>Contact Us</a></li>
+  const menuItems = (
+    <>
+      <li className="text-2xl lg:text-white font-semibold">
+        <a href="/">Home</a>
+      </li>
+      <li className="text-2xl lg:text-white font-semibold">
+        <a href="#about">About</a>
+      </li>
+      <li className="text-2xl lg:text-white font-semibold">
+        <a href="#projects">Projects</a>
+      </li>
+      <li className="text-2xl lg:text-white font-semibold">
+        <a href="#skills">Skills</a>
+      </li>
+      <li className="text-2xl lg:text-white font-semibold">
+        <a href="#experience">Experience</a>
+      </li>
+      <li className="text-2xl lg:text-white font-semibold">
+        <a href="#contact">Contact Us</a>
+      </li>
     </>
+  );
   return (
     <div className="navbar bg-blue-800 flex justify-between p-7">
       <div className="navbar-start">
@@ -40,14 +50,14 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-       <div>
-        <h1 className="text-2xl md:text-4xl whitespace-nowrap text-white tanu lg:text-5xl lg:ml-2" >Tanushri Das</h1>
-      </div>
+        <div>
+          <h1 className="text-2xl md:text-4xl whitespace-nowrap text-white lg:text-5xl lg:ml-2 font-bold">
+            Tanushri
+          </h1>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal p-0">
-            {menuItems}
-        </ul>
+        <ul className="menu menu-horizontal p-0">{menuItems}</ul>
       </div>
     </div>
   );

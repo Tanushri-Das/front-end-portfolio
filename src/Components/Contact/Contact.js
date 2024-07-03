@@ -26,7 +26,7 @@ const Contact = () => {
           <p className="text-2xl md:text-3xl lg:text-4xl font-bold inline border-b-4 border-amber-500">
             Contact Us
           </p>
-          <p className="pt-8 md:pt-12 pb-12 md:pb-14 font-semibold txet-2xl">
+          <p className="font-bold mb-4 text-lg sm:text-xl md:text-2xl whitespace-nowrap mt-10">
             Submit the form below to get in touch with me
           </p>
         </div>
@@ -44,25 +44,25 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              className="p-2 bg-black text-white border-2 rounded-md focus:outline-none"
+              className="p-2 bg-white text-black border-2 rounded-md focus:outline-none"
               placeholder="Enter your name"
             />
             <input
               type="email"
               name="email"
-              className="my-5 p-2 bg-black text-white border-2 rounded-md focus:outline-none"
+              className="my-5 p-2 bg-white text-black border-2 rounded-md focus:outline-none"
               placeholder="Enter your email"
             />
             <textarea
               name="message"
               id=""
               rows="10"
-              className="p-2 bg-black text-white border-2 rounded-md focus:outline-none resize-none"
+              className="p-2 bg-white text-black border-2 rounded-md focus:outline-none resize-none"
               placeholder="Enter your message"
             ></textarea>
             <button
               onClick={handleClear}
-              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto items-center rounded-md hover:scale-110 duration-300 font-bold text-xl"
+              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-8 py-2 my-8 mx-auto items-center rounded-md hover:scale-110 duration-300 font-bold text-lg"
             >
               Submit
             </button>

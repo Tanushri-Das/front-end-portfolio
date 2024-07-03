@@ -14,9 +14,9 @@ const Portfolio = () => {
     <div
       id="projects"
       name="projects"
-      className="w-full bg-blue-800 pb-14 md:pb-24 text-white md:h-full"
+      className="w-full bg-blue-800 pb-14 text-white md:h-full"
     >
-      <div className="w-full xl:w-4/5 p-4 mx-auto flex flex-col justify-center h-full project lg:ml-8 xl:ml-56">
+      <div className="w-full xl:w-4/5 p-4 mx-auto flex flex-col justify-center h-full project lg:ml-8 xl:ml-56 border-2 border-white">
         <div
           className="pb-8 mt-16 md:mt-24 xl:-mt-2"
           data-aos="fade-right"

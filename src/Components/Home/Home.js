@@ -45,7 +45,7 @@ const Home = () => {
           Dawnload Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "Tanushri Das Resume (2).pdf",
+      href: "Tanushri Das - Junior Frontend Developer Latest Resume.pdf",
       download: true,
     },
   ];
@@ -58,15 +58,15 @@ const Home = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl mt-5 md:mt-8 lg:mt-16 xl:-mt-[270px]  font-extrabold text-white">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl mt-5 md:mt-8 lg:mt-16 xl:-mt-[270px] font-bold text-white">
             Hi There ...{" "}
           </h1>
-          <h2 className="font-extrabold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white md:my-6 my-4">
+          <h2 className="font-semibold text-xl md:text-3xl text-white my-6">
             This is Tanushri Das
           </h2>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
-            I'm a{" "}
-            <span className="text-white" style={{ fontWeight: "bold" }}>
+          <h2 className="text-xl md:text-3xl font-medium text-white">
+            I am a{" "}
+            <span className="text-white" style={{ fontWeight: "medium" }}>
               <Typewriter
                 words={[
                   "Front-End Web Developer",
