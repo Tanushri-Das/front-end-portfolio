@@ -50,7 +50,10 @@ const Home = () => {
     },
   ];
   return (
-    <div name="home" className="xl:h-[90vh] home w-full bg-[#3944bc] pt-8 md:pt-0 ">
+    <div
+      name="home"
+      className="xl:h-[90vh] home w-full bg-[#3944bc] pt-8 md:pt-0 "
+    >
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center xl:h-[90vh]  xl:ml-40 overflow-hidden p-4 md:p-4 pb-24 lg:pb-0 lg:-mt-20 xl:mt-0 mb-40 md:mb-40">
         <div
           className="flex flex-col justify-center h-full info-lg"

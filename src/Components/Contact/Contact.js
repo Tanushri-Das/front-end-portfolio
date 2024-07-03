@@ -19,7 +19,7 @@ const Contact = () => {
     >
       <div className="w-full xl:w-4/5 mx-auto flex flex-col justify-center h-full project lg:ml-8 xl:ml-40 p-4 md:p-4">
         <div
-          className="mt-16 md:mt-24 xl:mt-4 mb-8"
+          className="mb-8"
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"

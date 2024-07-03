@@ -138,7 +138,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div id="skills" name="skills" className="bg-[#3944bc] w-full h-full ">
+    <div id="skills" name="skills" className="bg-[#3944bc] w-full h-full pb-10">
       <div className="w-full xl:w-4/5 mx-auto flex flex-col justify-center h-full text-white pb-14 project lg:ml-8 xl:ml-40 skill p-4 md:p-4">
         <div
           className="mt-16 md:mt-24 xl:-mt-0"

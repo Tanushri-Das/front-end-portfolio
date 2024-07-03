@@ -6,7 +6,7 @@ const Experience = () => {
     <div
       id="experience"
       name="experience"
-      className="w-full h-full bg-[#3944bc] text-white pb-14"
+      className="w-full h-full bg-[#3944bc] text-white pb-10"
     >
       <div className="w-full xl:w-4/5 mx-auto flex flex-col justify-center h-full project lg:ml-8 xl:ml-40 p-4 md:p-4">
         <div
