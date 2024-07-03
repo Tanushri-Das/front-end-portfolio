@@ -6,16 +6,16 @@ const Experience = () => {
     <div
       id="experience"
       name="experience"
-      className="w-full h-full bg-blue-800 md:-mt-10 text-white pb-14 md:pb-24"
+      className="w-full h-full bg-[#3944bc] text-white pb-14"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full lg:ml-8 xl:ml-56 about">
+      <div className="w-full xl:w-4/5 mx-auto flex flex-col justify-center h-full project lg:ml-8 xl:ml-40 p-4 md:p-4">
         <div
-          className="pb-4 mt-16 md:mt-24 xl:mt-4 mb-8"
+          className="mt-16 md:mt-24 xl:mt-4 mb-8"
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <p className="text-2xl md:text-3xl font-bold inline border-b-4 border-amber-500">
+          <p className="text-2xl md:text-3xl font-bold inline">
             Experience
           </p>
         </div>

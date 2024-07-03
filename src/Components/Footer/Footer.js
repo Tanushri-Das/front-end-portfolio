@@ -5,7 +5,7 @@ import './Footer.css'
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
-    <div className="w-full h-full p-16 md:p-24 bg-blue-800 lg:-mt-10 xl:-mt-28  text-white pb-20">
+    <div className="w-full h-full p-16 md:p-24 bg-[#3944bc] lg:-mt-10 xl:-mt-10 text-white">
       <div className="">
       <div className="avatar footer-div">
         <div className="w-24 rounded-full">

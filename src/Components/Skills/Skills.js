@@ -10,15 +10,15 @@ import express from "../../assets/express.png";
 import react from "../../assets/react.png";
 import next from "../../assets/nextjs.png";
 import material from "../../assets/material.png";
-import redux from '../../assets/redux.png';
-import typescript from '../../assets/typescript.png';
-import vite from '../../assets/vite.png';
-import sass from '../../assets/sass.png';
-import swiper from '../../assets/swiper.png';
-import mobx from '../../assets/mobx.png';
-import vercel from '../../assets/vercel.jpg';
-import netlify from '../../assets/netlify.jpeg'
-import './Skills.css'
+import redux from "../../assets/redux.png";
+import typescript from "../../assets/typescript.png";
+import vite from "../../assets/vite.png";
+import sass from "../../assets/sass.png";
+import swiper from "../../assets/swiper.png";
+import swagger from "../../assets/swagger.png";
+import vercel from "../../assets/vercel.jpg";
+import netlify from "../../assets/netlify.jpeg";
+import "./Skills.css";
 
 const Skills = () => {
   const techs = [
@@ -89,19 +89,19 @@ const Skills = () => {
       style: "shadow-blue-600",
     },
     {
-      id:12,
-      src:  vite,
+      id: 12,
+      src: vite,
       title: "Vite",
       style: "shadow-blue-600",
     },
     {
-      id:13,
+      id: 13,
       src: node,
       title: "Node Js",
       style: "shadow-green-500",
     },
     {
-      id:14,
+      id: 14,
       src: express,
       title: "Express Js",
       style: "shadow-white",
@@ -113,16 +113,16 @@ const Skills = () => {
       style: "shadow-green-700",
     },
     {
-      id:16,
-      src:  swiper,
+      id: 16,
+      src: swiper,
       title: "Swiper Js",
       style: "shadow-blue-600",
     },
     {
       id: 17,
-      src: mobx,
-      title: "MobX",
-      style: "shadow-orange-700",
+      src: swagger,
+      title: "Swagger",
+      style: "shadow-green-700",
     },
     {
       id: 18,
@@ -131,34 +131,28 @@ const Skills = () => {
       style: "shadow-green-700",
     },
     {
-      id:19,
+      id: 19,
       src: vercel,
       title: "Vercel",
       style: "shadow-white",
     },
-
   ];
   return (
-    <div id="skills"
-      name="skills"
-      className="bg-blue-800 w-full h-full"
-    >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white pb-16 md:pb-24 lg:ml-8 xl:ml-56 skill">
+    <div id="skills" name="skills" className="bg-[#3944bc] w-full h-full ">
+      <div className="w-full xl:w-4/5 mx-auto flex flex-col justify-center h-full text-white pb-14 project lg:ml-8 xl:ml-40 skill p-4 md:p-4">
         <div
           className="mt-16 md:mt-24 xl:-mt-0"
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <p className="text-2xl md:text-3xl font-bold inline border-b-4 border-amber-500">
-            My Skills
-          </p>
-          <p className="pt-8 md:pt-12 text-xl pb-10 md:pb-16 font-semibold">
+          <p className="text-2xl md:text-3xl font-bold inline">My Skills</p>
+          <p className="pt-8 pb-10 md:pb-16 font-semibold text-lg sm:text-xl md:text-2xl">
             I acquired these skills till now
           </p>
         </div>
         <div
-          className="w-full skill-grid grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 xl:px-12 sm:px-0 skills-div"
+          className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 text-center"
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"

@@ -14,20 +14,20 @@ const Portfolio = () => {
     <div
       id="projects"
       name="projects"
-      className="w-full bg-blue-800 pb-14 text-white md:h-full"
+      className="w-full bg-[#3944bc] pb-14 text-white md:h-full"
     >
-      <div className="w-full xl:w-4/5 p-4 mx-auto flex flex-col justify-center h-full project lg:ml-8 xl:ml-56 border-2 border-white">
+      <div className="w-full p-4 md:p-4 xl:w-4/5 mx-auto flex flex-col justify-center h-full project lg:ml-8 xl:ml-40">
         <div
-          className="pb-8 mt-16 md:mt-24 xl:-mt-2"
+          className="mt-16 md:mt-24 xl:-mt-2"
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <p className="text-2xl md:text-3xl font-bold inline border-b-4 border-amber-500">
+          <p className="text-2xl md:text-3xl font-bold inline">
             My Projects
           </p>
           <p
-            className="py-6 md:py-10 font-semibold"
+            className="py-6 md:py-10 font-semibold text-lg sm:text-xl md:text-2xl"
             data-aos="fade-right"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -36,7 +36,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid myproject grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:px-0 ">
+        <div className="grid myproject grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-7 sm:px-0 ">
           {projects.map(
             ({
               id,

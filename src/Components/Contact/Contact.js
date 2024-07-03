@@ -1,7 +1,7 @@
 import { fromJSON } from "postcss";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import './Contact.css'
+import "./Contact.css";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -12,20 +12,19 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact"
+    <div
+      id="contact"
       name="contact"
-      className="w-full h-full bg-blue-800 p-4 text-white  pb-10 md:pb-24"
+      className="w-full h-full bg-[#3944bc] text-white"
     >
-      <div className="flex flex-col p-1 md:p-0 lg:p-4 justify-center max-w-screen-lg mx-auto h-full contacts xl:ml-52">
+      <div className="w-full xl:w-4/5 mx-auto flex flex-col justify-center h-full project lg:ml-8 xl:ml-40 p-4 md:p-4">
         <div
-          className="pb-8 mt-16 md:mt-20 lg:mt-24 xl:-mt-11"
+          className="mt-16 md:mt-24 xl:mt-4 mb-8"
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <p className="text-2xl md:text-3xl lg:text-4xl font-bold inline border-b-4 border-amber-500">
-            Contact Us
-          </p>
+          <p className="text-2xl md:text-3xl font-bold inline">Contact Us</p>
           <p className="font-bold mb-4 text-lg sm:text-xl md:text-2xl whitespace-nowrap mt-10">
             Submit the form below to get in touch with me
           </p>
