@@ -1,4 +1,3 @@
-import { fromJSON } from "postcss";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Contact.css";
@@ -6,7 +5,6 @@ import "./Contact.css";
 const Contact = () => {
   const navigate = useNavigate();
 
-  const [clear, setClear] = useState(null);
   const handleClear = () => {
     navigate("/");
   };
@@ -25,7 +23,7 @@ const Contact = () => {
           data-aos-duration="2000"
         >
           <p className="text-2xl md:text-3xl font-bold inline">Contact Us</p>
-          <p className="font-bold mb-4 text-lg sm:text-xl md:text-2xl whitespace-nowrap mt-10">
+          <p className="font-bold mb-4 text-lg sm:text-xl md:text-2xl whitespace-nowrap mt-6">
             Submit the form below to get in touch with me
           </p>
         </div>
@@ -38,30 +36,30 @@ const Contact = () => {
           <form
             action="https://getform.io/f/c2f8bf3b-ca10-4a4c-a5d0-60cd3a0f1053"
             method="POST"
-            className="flex flex-col w-full sm:w-1/2"
+            className="flex flex-col w-full sm:w-1/2 lg:w-2/5 form-container"
           >
             <input
               type="text"
               name="name"
-              className="p-2 bg-white text-black border-2 rounded-md focus:outline-none"
+              className="py-2 pl-2 bg-white text-black border-2 rounded-md focus:outline-none"
               placeholder="Enter your name"
             />
             <input
               type="email"
               name="email"
-              className="my-5 p-2 bg-white text-black border-2 rounded-md focus:outline-none"
+              className="my-3 py-2 pl-2 bg-white text-black border-2 rounded-md focus:outline-none"
               placeholder="Enter your email"
             />
             <textarea
               name="message"
               id=""
-              rows="10"
-              className="p-2 bg-white text-black border-2 rounded-md focus:outline-none resize-none"
+              rows="5"
+              className="py-2 pl-2 bg-white text-black border-2 rounded-md focus:outline-none resize-none"
               placeholder="Enter your message"
             ></textarea>
             <button
               onClick={handleClear}
-              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-8 py-2 my-8 mx-auto items-center rounded-md hover:scale-110 duration-300 font-bold text-lg"
+              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-8 py-2 mt-6 mb-2 mx-auto items-center rounded-md hover:scale-110 duration-300 font-semibold text-lg"
             >
               Submit
             </button>

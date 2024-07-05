@@ -42,7 +42,7 @@ const Experience = () => {
             performance.
           </p>
         </div>
-        <div className="mt-6">
+        <div className="mt-8">
           <div
             data-aos="fade-right"
             data-aos-easing="ease-out-cubic"

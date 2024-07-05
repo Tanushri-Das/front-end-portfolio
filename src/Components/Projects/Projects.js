@@ -27,7 +27,7 @@ const Portfolio = () => {
             My Projects
           </p>
           <p
-            className="py-6 md:py-10 font-semibold text-lg sm:text-xl md:text-2xl"
+            className="mt-8 my-12 font-semibold text-lg sm:text-xl md:text-2xl"
             data-aos="fade-right"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"

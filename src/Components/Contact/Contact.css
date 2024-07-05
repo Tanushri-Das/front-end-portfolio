@@ -1,25 +1,33 @@
-@media only screen and (min-width:1230px) and (max-width:1240px){
-    .contacts{
-        margin-left:180px;
-    }
+.form-container {
+  border: 1px solid #ccc;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
-@media only screen and (min-width:1240px) and (max-width:1250px){
-    .contacts{
-        margin-left:180px;
-    }
+
+@media only screen and (min-width: 1230px) and (max-width: 1240px) {
+  .contacts {
+    margin-left: 180px;
+  }
 }
-@media only screen and (min-width:1250px) and (max-width:1260px){
-    .contacts{
-        margin-left:180px;
-    }
+@media only screen and (min-width: 1240px) and (max-width: 1250px) {
+  .contacts {
+    margin-left: 180px;
+  }
 }
-@media only screen and (min-width:1260px) and (max-width:1270px){
-    .contacts{
-        margin-left:160px;
-    }
+@media only screen and (min-width: 1250px) and (max-width: 1260px) {
+  .contacts {
+    margin-left: 180px;
+  }
 }
-@media only screen and (min-width:1270px) and (max-width:1285px){
-    .contacts{
-        margin-left:165px;
-    }
+@media only screen and (min-width: 1260px) and (max-width: 1270px) {
+  .contacts {
+    margin-left: 160px;
+  }
+}
+@media only screen and (min-width: 1270px) and (max-width: 1285px) {
+  .contacts {
+    margin-left: 165px;
+  }
 }
