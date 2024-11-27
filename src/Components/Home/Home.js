@@ -45,7 +45,7 @@ const Home = () => {
           Dawnload Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "Tanushri Das - Junior Frontend Developer Latest Resume.pdf",
+      href: "Tanushri Das  -  Frontend Developer Latest Resume.pdf",
       download: true,
     },
   ];

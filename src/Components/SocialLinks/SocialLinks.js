@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "Tanushri Das - Junior Frontend Developer Latest Resume.pdf",
+      href: "Tanushri Das  -  Frontend Developer Latest Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },

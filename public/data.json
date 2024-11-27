@@ -1,9 +1,47 @@
 [
   {
     "id": "01",
+    "project_name": "Quick Hire",
+    "home_src": "job.jpeg",
+    "tech": "React.js, Tailwind Css, Shadcn Ui, Firebase, Typescript, Swiper Js, React icons, React hook form, Tanstack Query, Sweetalert2, Node.js, Express.js, MongoDB.",
+    "short_description": "This is a Job Portal website.",
+    "livesite_href": "https://job-portal-c39ed.web.app/",
+    "cilent_side": "https://github.com/Tanushri-Das/Job-Portal-Client-Side",
+    "server_side": "https://github.com/Tanushri-Das/Job-Portal-Website-Server-Side"
+  },
+  {
+    "id": "02",
+    "project_name": "Sip Coffee",
+    "home_src": "coffee.jpeg",
+    "tech": "React, React-router, Tailwind Css, Redux Toolkit, Firebase, React icons, Sweetalert2, Rest Api, NodeJs, Express Js, MongoDB.",
+    "short_description": "This is a Coffee Shop website.",
+    "livesite_href": "https://coffee-shop-8204e.web.app/",
+    "cilent_side": "https://github.com/Tanushri-Das/coffee-shop-client-side",
+    "server_side": "https://github.com/Tanushri-Das/coffee-shop-server-side"
+  },
+  {
+    "id": "03",
+    "project_name": "CarCare",
+    "home_src": "carcare.jpeg",
+    "tech": "Next.js ,Next Auth ,Tailwind Css ,Shadcn Ui ,Axios ,Typescript ,Swiper Js, React icons ,React hook form ,Tanstack Query ,Sweetalert2 ,bcrypt.js ,MongoDB .",
+    "short_description": "This is a Car Repairing Website.",
+    "livesite_href": "https://car-repairing-website.vercel.app/",
+    "cilent_side": "https://github.com/Tanushri-Das/Nextjs-Car-Repairing-Website"
+  },
+  {
+    "id": "04",
+    "project_name": "BookNest",
+    "home_src": "book.jpeg",
+    "tech": "Next.js ,Next Auth ,Tailwind Css ,Shadcn Ui ,Axios ,Typescript ,Swiper Js, React icons ,React hook form ,Tanstack Query ,Sweetalert2 ,bcrypt.js ,MongoDB .",
+    "short_description": "This is a Book Store website.",
+    "livesite_href": "https://books-store-project-olive.vercel.app/",
+    "cilent_side": "https://github.com/Tanushri-Das/book-store-website"
+  },
+  {
+    "id": "05",
     "project_name": "Dental Ease",
     "home_src": "dentalease.jpeg",
-    "tech": "React ,React-router ,Tailwind Css ,Axios ,Jwt ,Firebase ,React icons ,React hook form ,Sweetalert2 ,NodeJs ,Express Js ,MongoDB .",
+    "tech": "React ,React-router ,Tailwind Css ,Axios ,Jwt ,Firebase ,React icons ,React hook form ,Tanstack Query, Sweetalert2 ,NodeJs ,Express Js ,MongoDB .",
     "short_description": "This is a Dental Clinic website .",
     "admin_email": "tama73468@gmail.com",
     "admin_pass": "tama12",
@@ -12,40 +50,16 @@
     "server_side": "https://github.com/Tanushri-Das/dental-ease-server-side"
   },
   {
-    "id": "02",
-    "project_name": "BookNest",
-    "home_src": "book.jpeg",
-    "tech": "Next.js ,Next Auth ,Tailwind Css ,Shadcn Ui ,Axios ,Typescript ,Swiper Js, React icons ,React hook form ,Sweetalert2 ,Bcrypt.js ,MongoDB .",
-    "short_description": "This is a Book Store website.",
-    "livesite_href": "https://books-store-project-olive.vercel.app/",
-    "cilent_side": "https://github.com/Tanushri-Das/book-store-website"
+    "id": "06",
+    "project_name": "Courier Service Website",
+    "home_src": "courier-service.jpeg",
+    "tech": "Html ,Css ,Bootstrap ,Javascript ,Swiper Js.",
+    "short_description": "This is a Courier Service Website landing page.",
+    "livesite_href": "https://fanciful-bavarois-720345.netlify.app/",
+    "cilent_side": "https://github.com/Tanushri-Das/Courier-Service-Website"
   },
   {
-    "id": "03",
-    "project_name": "Sip Coffee",
-    "home_src": "coffee.jpeg",
-    "tech": "React, React-router, Tailwind Css, Redux Toolkit, Axios, Jwt, Firebase, React icons, Sweetalert2, NodeJs, Express Js, MongoDB.",
-    "short_description": "This is a Coffee Shop website.",
-    "admin_email": "priya12@gmail.com",
-    "admin_pass": "priya12",
-    "livesite_href": "https://coffee-shop-9743b.web.app/",
-    "cilent_side": "https://github.com/Tanushri-Das/coffee-shop-website-client-side",
-    "server_side": "https://github.com/Tanushri-Das/coffee-shop-website-server-side"
-  },
-  {
-    "id": "04",
-    "project_name": "Jerin's Parlour",
-    "home_src": "parlour.jpeg",
-    "tech": "React ,React-router ,Tailwind Css ,Axios ,Jwt ,Firebase ,React icons ,React hook form ,Sweetalert2 ,NodeJs ,Express Js ,MongoDB .",
-    "short_description": "This is a Parlour website.",
-    "admin_email": "anik12@gmail.com",
-    "admin_pass": "anik12",
-    "livesite_href": "https://parlour-website-37d65.web.app/",
-    "cilent_side": "https://github.com/Tanushri-Das/parlour-website-client-side",
-    "server_side": "https://github.com/Tanushri-Das/parlour-website-server-side"
-  },
-  {
-    "id": "05",
+    "id": "07",
     "project_name": "Weather App",
     "home_src": "weather.jpeg",
     "tech": "React.js ,Tailwind Css,React icons, Local Storage .",
@@ -54,7 +68,7 @@
     "cilent_side": "https://github.com/Tanushri-Das/Weather-App"
   },
   {
-    "id": "06",
+    "id": "08",
     "project_name": "Foodie's Paradise",
     "home_src": "returant-home.jpeg",
     "tech": "React ,React-router ,Tailwind Css ,Daisy Ui ,Axios ,Jwt ,Firebase ,React icons ,React hook form ,Sweetalert2 ,NodeJs ,Express Js ,MongoDB .",
@@ -66,16 +80,19 @@
     "server_side": "https://github.com/Tanushri-Das/Resturant-Website-Server-Side"
   },
   {
-    "id": "07",
-    "project_name": "Courier Service Website",
-    "home_src": "courier-service.jpeg",
-    "tech": "Html ,Css ,Bootstrap ,Javascript ,Jquery ,Swiper Js.",
-    "short_description": "This is a Courier Service Website landing page.",
-    "livesite_href": "https://fanciful-bavarois-720345.netlify.app/",
-    "cilent_side": "https://github.com/Tanushri-Das/Courier-Service-Website"
+    "id": "09",
+    "project_name": "Jerin's Parlour",
+    "home_src": "parlour.jpeg",
+    "tech": "React ,React-router ,Tailwind Css ,Axios ,Jwt ,Firebase ,React icons ,React hook form ,Tanstack Query, Sweetalert2 ,NodeJs ,Express Js ,MongoDB .",
+    "short_description": "This is a Parlour website.",
+    "admin_email": "anik12@gmail.com",
+    "admin_pass": "anik12",
+    "livesite_href": "https://parlour-website-37d65.web.app/",
+    "cilent_side": "https://github.com/Tanushri-Das/parlour-website-client-side",
+    "server_side": "https://github.com/Tanushri-Das/parlour-website-server-side"
   },
   {
-    "id": "08",
+    "id": "10",
     "project_name": "Tanu Eye Care",
     "home_src": "eye.jpeg",
     "tech": "React ,React-router ,Tailwind Css ,Daisy Ui ,Firebase ,React-photo-view ,React icons ,React-toastify ,NodeJs ,Express Js ,MongoDB .",
@@ -85,7 +102,7 @@
     "server_side": "https://github.com/Tanushri-Das/doctor-personal-server-side"
   },
   {
-    "id": "09",
+    "id": "11",
     "project_name": "TechEdify",
     "home_src": "cse.jpeg",
     "tech": "React.js ,Bootstrap ,Node.js ,Express.js",
@@ -95,7 +112,7 @@
     "server_side": "https://github.com/Tanushri-Das/Online-learning-platform-server-side"
   },
   {
-    "id": "10",
+    "id": "12",
     "project_name": "TeuxDeux",
     "home_src": "task.jpeg",
     "tech": "Next.js ,Tailwind Css ,TypeScript ,MobX ,Local Storage .",
@@ -104,7 +121,7 @@
     "cilent_side": "https://github.com/Tanushri-Das/nextjs-typescript-todo-app"
   },
   {
-    "id": "11",
+    "id": "13",
     "project_name": "UserEase",
     "home_src": "user.jpeg",
     "tech": "React.js ,Bootstrap ,Redux Toolkit ,Node.js ,Express.js ,MongoDB.",
@@ -114,7 +131,7 @@
     "server_side": "https://github.com/Tanushri-Das/user-management-system-server-side"
   },
   {
-    "id": "12",
+    "id": "14",
     "project_name": "Ashley Homestore",
     "home_src": "sufa.jpeg",
     "tech": "React.js ,React Hook Form ,Tailwind Css ,Daisy Ui ,Node.js ,Express.js ,MongoDB.",
@@ -124,7 +141,7 @@
     "server_side": "https://github.com/Tanushri-Das/furniture-reseal-server-side"
   },
   {
-    "id": "13",
+    "id": "15",
     "project_name": "Survey App",
     "home_src": "survey.jpeg",
     "tech": "React.js ,Tailwind Css ,Node.js ,Express.js ,MongoDB.",
